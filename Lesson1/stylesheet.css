@@ -1,0 +1,57 @@
+.menu > span {
+  background-color: #d5b0ac;
+  color: #402e2a;
+  width: 100px;
+  display: inline-block;
+  text-align: center;
+  height: 30px;
+  line-height: 30px;
+  position: relative;
+  cursor: pointer;
+}
+
+.menu > span:hover .child-menu {
+  display: block;
+}
+
+.child-menu {
+  display: none;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 30px;
+  background-color: yellow;
+  color: black;
+}
+
+.child-menu > div {
+  display: block;
+  /* width: 100%; */
+}
+
+.child-menu > div:hover {
+  display: block;
+  background-color: red;
+  /* width: 100%; */
+}
+
+span:hover {
+  background-color: #9cd08f;
+  color: #ffffff;
+}
+
+.menu-vertical span {
+  display: block;
+}
+
+.content-box {
+  box-sizing: content-box;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  padding: 10px;
+  border: 1px solid black;
+}
+/* .a .c {
+  background: green;
+} */
